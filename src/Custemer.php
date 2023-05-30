@@ -10,7 +10,7 @@ class Custemer
     {
         
     }
-    public function sayHello(string $name): string
+    public function sayHello(string $name = "guest"): string
 {
     return "Hello $name, My Name is $this->$name";
 }
